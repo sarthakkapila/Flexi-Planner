@@ -1,4 +1,5 @@
 // import Navbar from "./components/Navbar";
+import { Footer } from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { Button } from "./components/ui/button";
@@ -25,9 +26,19 @@ return (
     </div>
     <Button variant="default" size="lg">Get Started</Button>
     </div>
+    <br/>
+    <br/>
+    <div>
         <Hero/>
-    <Button variant="secondary">Secondary</Button>
-    </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div>
+            <Footer/>
+        </div>
+        </div>
+
 )
 }
 
