@@ -8,15 +8,24 @@ return (
     <div>
     <Navbar/>
     <div/>
-    <div>
-    <h1>Take Notes using AI!</h1>
-    <h4>NotesGPT seamlessly converts your voice notes into organized
-    summaries and clear action items using AI.</h4>
-    <Button variant="secondary">Secondary</Button>
+    <div className="p-20">
+    <h1 className="inline-block text-center text-4xl font-medium tracking-tighter text-dark lg:text-7xl">
+          AI-Powered Voice <br className="hidden lg:inline-block" />
+          Note Taking
+        </h1>
+    <div className="p-5">
+    <p className="mt-8 text-center text-xl font-light tracking-tight lg:text-3xl">
+          NotesGPT seamlessly converts your voice notes into{' '}
+          <span className="font-bold">
+            organized <br className="hidden lg:inline-block" />
+            summaries
+          </span>{' '}
+          and <span className="font-bold">clear action items</span> using AI.
+        </p>
     </div>
-    <div>
+    <Button variant="default" size="lg">Get Started</Button>
+    </div>
         <Hero/>
-    </div>
     <Button variant="secondary">Secondary</Button>
     </div>
 )
